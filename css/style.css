@@ -512,6 +512,9 @@ a {
 .dark .title h2:after{
   background-color: #fff;
 }
+.separator blue .title h2:after{
+  background-color: #fff;
+}
 
 header.title h2 {
   font-size: 30px;
@@ -537,10 +540,20 @@ header.title h2 {
 }
 .separator .title{
   text-align: center;
-max-width: 700px;
-margin: 0 auto;
-padding: 0 25px 55px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 25px 55px;
 }
+
+.separator .title h2:after{
+  content: "";
+  display: block;
+  background-color: #f7f1f1;
+  width: 50px;
+  height: 1px;
+  margin: 15px auto 0;
+}
+
 .separator.blue {
   padding-top: 60px !important;
   padding-bottom: 60px !important;
